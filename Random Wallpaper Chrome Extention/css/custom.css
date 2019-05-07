@@ -1,0 +1,99 @@
+html, body, h1, h2 {
+	margin: 0;
+}
+
+#mainPopup {
+	/* padding: 10px; */
+	height: 300px;
+	width: 500px;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+#mainPopup {
+	background-color: #f7f7f7;
+}
+
+h3#mainTitle {
+	font-size: 1.5em;
+}
+
+header {
+	padding: 10px;
+}
+
+header h1 {
+	color: var(--color-secondary);
+	background-image: url('../icons/icon32.png');
+	background-repeat: no-repeat;
+	background-size: 18px;
+	font-size: var(--font-size-big);
+	flex-grow: 1;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+html:not([dir="rtl"]) header h1 {
+	padding-left: 30px;
+	background-position: left center;
+}
+
+.dimensionsBody, .colorBody {
+	padding: 10px;
+}
+
+.dropdown, .colorOptions {
+	position: relative;
+	border: 1px solid #D3D3D3;
+	border-radius: 14px;
+}
+
+h5.title {
+	font-size: 1em;
+}
+
+.custom-controls-inline {
+	padding: 2px;
+	margin: 2px;
+	border-bottom: 1px #f7f7f7;
+}
+
+div#dimensionsSection {
+	padding-top: 0.8em;
+}
+
+#submitButton {
+	margin-top: 0.5em;
+	display: inline-block;
+}
+
+p#creditsFont {
+	font-size: x-small;
+	float: right;
+	padding-right: 1em;
+}
+
+#labels {
+	display: block;
+	color: black;
+	font-weight: bold;
+}
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}

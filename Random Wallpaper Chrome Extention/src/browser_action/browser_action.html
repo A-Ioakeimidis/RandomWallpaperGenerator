@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="../../css/custom.css" rel="stylesheet" />
+	<link href="../../bootstrap/bootstrap.css" rel="stylesheet" />
+	<script src="../../js/jquery/jquery.js"></script>
+	<script src="../../bootstrap/popper.min.js"></script>
+	<script src="../../js/bootstrap-js/bootstrap.min.js"></script>
+	<script src="../../js/random_wallpaper.js"></script>
+	<title>Random Wallpaper Generator</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="top">
+			<h1>Random Wallpaper Generator</h1>
+		</div>
+	</header>
+	<div id="mainPopup">
+
+		<div class="dimensionsBody">
+			<!-- Dimension options -->
+			<div class="dropdown show">
+				<div class="form-group col-md-2">
+					<label for="dropdownSelection" id="labels">Dimensions</label>
+					<select id="dropdownSelection" class="form-control">
+						<option selected>Choose...</option>
+						<option value="800 600">800x600</option>
+						<option value="1366 768">1366x768</option>
+						<option value="1024 768">1024x768</option>
+						<option value="1280 720">1280x720</option>
+						<option value="1280 1024">1280x1024</option>
+						<option value="1920 1080">1920x1080</option>
+						<option value="1600 1200">1600x1200</option>
+						<option value="2560 1080">2560x1080</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<!-- Color options -->
+		<div class="colorBody">
+			<div class="dropdown show">
+				<div class="form-group col-md-2">
+					<div class="custom-controls-inline">
+						<h5 class="title" id="labels">Color:</h5>
+						<label class="custom-control custom-radio">
+							<input id="colorStacked1" name="color-stacked" type="radio" value="color"
+								class="custom-control-input">
+							<span class="custom-control-indicator"></span>
+							<span class="custom-control-description">Color</span>
+						</label>
+
+						<label class="custom-control custom-radio">
+							<input id="colorStacked2" name="color-stacked" type="radio" value="g"
+								class="custom-control-input">
+							<span class="custom-control-indicator"></span>
+							<span class="custom-control-description">Greyscale</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="form-group col-md-2">
+			<button type="submit" class="btn btn-primary" id="submitButton" disabled="disabled">Submit</button>
+		</div>
+
+	</div>
+	</div>
+	<div class="footer">
+		<p id="creditsFont">All photos provided by Unsplash</p>
+	</div>
+
+</body>
+
+</html>
